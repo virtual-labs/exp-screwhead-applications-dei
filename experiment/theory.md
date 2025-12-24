@@ -1,15 +1,13 @@
-## Screw Head Forming
+### Screw Head Forming
 
 A screw or bolt is a type of fastener characterized by a helical ridge, known as an **external thread** or just thread, wrapped around a cylinder. Some screw threads are designed to mate with a complementary thread, known as an **internal thread**, often in the form of a nut or an object that has the internal thread formed into it. Other screw threads are designed to cut a helical groove in a softer material as the screw is inserted. The most common uses of screws are to hold objects together and to position objects.
 
----
 
 ### Difference between Bolt and Screw
 
 * **Bolt:** A bolt is an externally threaded fastener designed for insertion through holes in assembled parts, and is normally intended to be tightened or released by torquing a nut.
 * **Screw:** A screw is an externally threaded fastener capable of being inserted into holes in assembled parts, of mating with a preformed internal thread or forming its own thread, and of being tightened or released by torquing the head.
 
----
 
 ### Types of Screws
 
@@ -28,7 +26,6 @@ A Phillips screw is a fastener with a tapered threaded shank and a slotted (cros
 #### 3. Wood Screw Head
 A metal screw with a sharp point designed to attach two pieces of wood together. Wood screws are commonly available with flat, pan, or oval heads. A wood screw generally has a partially unthreaded shank below the head. The unthreaded portion of the shank is designed to slide through the top board (closest to the screw head) so that it can be pulled tight to the board it is being attached to.
 
----
 
 ### Screw Thread Parameters
 
@@ -39,7 +36,4 @@ Screw threads are defined by the following key parameters:
 
 In most srews, called "single start" screws, which have a single helical thread wrapped around them, the lead and pitch are equal. They only differ in "multiple start" screws, which have several intertwined threads. In these screws the lead is equal to the pitch multiplied by the number of starts. Multiple-start screws are used when a large linear motion for a given rotation is desired, for example in screw caps on bottles, and ball point pens.
 
-
-
-> **Single Start vs. Multiple Start:**
-> In most screws (single start), the **Lead** and **Pitch** are equal. In "multiple start" screws, which have several intertwined threads, the **Lead is equal to the Pitch multiplied by the number of starts**. Multiple-start screws are used when a large linear motion is required for a small rotation, such as in bottle caps or ballpoint pens.
+for a small rotation, such as in bottle caps or ballpoint pens.
