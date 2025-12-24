@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "A bolt has:",
+      "question": "1. A bolt has:",
       "answers": {
         "a": "Both the ends threaded",
         "b": "A head on one end and nut fitted to the other",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "An allen bolt is:",
+      "question": "2. An allen bolt is:",
       "answers": {
         "a": "Same as stud bolt",
         "b": "Self locking bolt",
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The function of washer is to:",
+      "question": "3. The function of washer is to:",
       "answers": {
         "a": "Provide bearing area",
         "b": "None of these",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "A stud has:",
+      "question": "4. A stud has:",
       "answers": {
         "a": "Pointed thread",
         "b": "A head on one end and nut on other",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The creast diameter of the screw thread is same as:",
+      "question": "5. The creast diameter of the screw thread is same as:",
       "answers": {
         "a": "Pitch diameter",
         "b": "Minor diameter",
