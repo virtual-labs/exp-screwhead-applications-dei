@@ -35,5 +35,3 @@ Screw threads are defined by the following key parameters:
 * **Pitch:** The pitch is defined as the axial distance between the crests of adjacent threads.
 
 In most srews, called "single start" screws, which have a single helical thread wrapped around them, the lead and pitch are equal. They only differ in "multiple start" screws, which have several intertwined threads. In these screws the lead is equal to the pitch multiplied by the number of starts. Multiple-start screws are used when a large linear motion for a given rotation is desired, for example in screw caps on bottles, and ball point pens.
-
-for a small rotation, such as in bottle caps or ballpoint pens.
