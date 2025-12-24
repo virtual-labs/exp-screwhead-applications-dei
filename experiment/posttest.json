@@ -15,21 +15,21 @@
     {
       "question": "2. Shear stress theory is applicable for:",
       "answers": {
-        "a": "Brittle material",
-        "b": "Ductile material",
+        "a": "Ductile material",
+        "b": "Brittle material",
         "c": "Both ductile and brittle",
         "d": "None of these"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
       "question": "3. A tap bolt has:",
       "answers": {
         "a": "Both the ends threaded",
-        "b": "Head one end and fits into a tapped hole",
+        "b": "Head one end to other end fit into a tapped hole in the other part to be joined",
         "c": "Pointed thread",
-        "d": "Nut fitted at one end"
+        "d": "A head on one end and nut fitted to the other"
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -42,7 +42,7 @@
         "c": "Hexagonal nut",
         "d": "Any one of these"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "intermediate"
     },
     {
@@ -53,7 +53,7 @@
         "c": "3 types",
         "d": "2 types"
       },
-      "correctAnswer": "d",
+      "correctAnswer": "c",
       "difficulty": "intermediate"
     }
   ]
