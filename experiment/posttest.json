@@ -2,38 +2,59 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Maximum pressure stress theory is applicable for:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Ductile material",
+        "b": "Both ductile and brittle materials",
+        "c": "Brittle material",
+        "d": "None of these"
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Shear stress theory is applicable for:",
+      "answers": {
+        "a": "Brittle material",
+        "b": "Ductile material",
+        "c": "Both ductile and brittle",
+        "d": "None of these"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A tap bolt has:",
+      "answers": {
+        "a": "Both the ends threaded",
+        "b": "Head one end and fits into a tapped hole",
+        "c": "Pointed thread",
+        "d": "Nut fitted at one end"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The following type of nut is used with allen bolt:",
+      "answers": {
+        "a": "Slotted nut",
+        "b": "Allen nut",
+        "c": "Hexagonal nut",
+        "d": "Any one of these"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How many types of screw thread:",
+      "answers": {
+        "a": "6 types",
+        "b": "4 types",
+        "c": "3 types",
+        "d": "2 types"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
     }
   ]
 }
