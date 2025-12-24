@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Maximum pressure stress theory is applicable for:",
+      "question": "1. Maximum pressure stress theory is applicable for:",
       "answers": {
         "a": "Ductile material",
         "b": "Both ductile and brittle materials",
@@ -13,7 +13,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Shear stress theory is applicable for:",
+      "question": "2. Shear stress theory is applicable for:",
       "answers": {
         "a": "Brittle material",
         "b": "Ductile material",
@@ -24,7 +24,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "A tap bolt has:",
+      "question": "3. A tap bolt has:",
       "answers": {
         "a": "Both the ends threaded",
         "b": "Head one end and fits into a tapped hole",
@@ -35,7 +35,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "The following type of nut is used with allen bolt:",
+      "question": "4. The following type of nut is used with allen bolt:",
       "answers": {
         "a": "Slotted nut",
         "b": "Allen nut",
@@ -46,7 +46,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "How many types of screw thread:",
+      "question": "5. How many types of screw thread:",
       "answers": {
         "a": "6 types",
         "b": "4 types",
