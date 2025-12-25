@@ -4,8 +4,8 @@ Follow the steps below to conduct the virtual experiment and correlate the simul
 
 <br>
 
-<b style="font-size: 1.2em;">1. Understanding the Objective</b>
-Begin the experiment by reviewing the core objective: studying the formation of bolt, hexagonal bolt, and screw heads using the **cold heading process**. The goal is to observe material deformation and strain distribution while the billet is shaped by the mechanical press.
+<b style="font-size: 1.2em;">1. Understanding the Objective:</b>
+ Begin the experiment by reviewing the core objective: studying the formation of bolt, hexagonal bolt, and screw heads using the **cold heading process**. The goal is to observe material deformation and strain distribution while the billet is shaped by the mechanical press.
 
 <br>
 
