@@ -1,12 +1,22 @@
-# Experiment 2: CSS and Simulation Resources
+<b style="font-size: 1.6em; color: black;">Screw Head Forming Simulation - Documentation</b>
 
-This folder contains the styling and assets for the **Screw Head Forming** experiment.
+This folder contains the styling and simulation documentation for the **Cold Heading** of fasteners.
 
-## Files
-- `main.css`: Controls the layout for the 6 simulation videos. It includes specific styling for:
-  - Video players (shadows and borders).
-  - Technical description boxes (background and justified text).
-  - Headings for different bolt types (Bolt, Hexagonal Bolt, and Screw).
+### Process Overview
+The simulations demonstrate the **Upsetting** (Heading) process used to form heads on standard bolts, hexagonal bolts, and screws.
+- **Material:** Plain Carbon Steel.
+- **Condition:** Cold Heading (20°C).
+- **Mechanism:** Mechanical press deformation using Finite Element Analysis (FEA) for force distribution.
 
-## Simulation Content
-The simulation covers the cold heading process, material deformation (plain carbon steel at 20°C), and equivalent strain analysis.
+
+
+### Interactive Layout
+The interface uses a vertical, dynamic navigation system:
+- **Guided Prompts:** Each simulation includes a technical "Call to Action" to guide student observation.
+- **Focused View:** Hiding inactive videos ensures a scannable and professional lab environment.
+- **Strain & Force Analysis:** Integrated graphs plot the relationship between Pilot Height and Punch Force to correlate deformation with mechanical property enhancement.
+
+### Folder Structure
+- `index.html`: The interactive simulation interface.
+- `css/main.css`: Professional layout and video-card styling.
+- `Assets`: 6 MP4 simulation videos covering setup and strain analysis.
