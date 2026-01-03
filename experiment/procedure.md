@@ -38,14 +38,14 @@ Follow the steps below to conduct the virtual experiment and correlate the simul
 <br>
 
 <b style="font-size: 1.2em;">6. Observation of Screw Head Formation</b>
-* **Action:** Play the **“ScrewHead Setup”** simulation.
+* **Action:** Play the **“Screw Head Setup”** simulation.
 * **Observation:** Observe the formation of the screw head using a single-step cold heading process. 
 * **Analysis:** Note the deformation pattern, die arrangement, and material flow as the slot is formed in the head.
 
 <br>
 
 <b style="font-size: 1.2em;">7. Strain Analysis in Screw Head Forming</b>
-* **Action:** Play the **“ScrewHead with Strain”** simulation.
+* **Action:** Play the **“Screw Head with Strain”** simulation.
 * **Observation:** Observe the evolution of strain. Identify regions of maximum strain and understand how this affects mechanical properties such as strength and durability. 
 * **Graph Analysis:** Analyze the graph showing variation between pilot height and upper die movement.
 
