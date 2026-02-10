@@ -3,105 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Screw Head Forming Simulation</title>
+    <title>Connecting Rod Forming Simulation</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
     <div class="header-container">
-        <h2>Screw Head Forming Simulation</h2>
+        <h2>Connecting Rod Forming Simulation</h2>
         <div class="underline"></div>
     </div>
 
     <div class="vertical-nav">
         <div class="nav-item">
-            <p class="cta-text">Watch the cold heading process for standard bolt formation</p>
-            <button class="play-btn" onclick="showSimulation('bolt-setup')">▶ Play: Bolt Setup</button>
+            <p class="cta-text">Watch the initial setup and die impressions for Manganese Alloy Steel</p>
+            <button class="play-btn" onclick="showSimulation('sim-setup-1')">▶ Play: Simulation Setup 1</button>
         </div>
         <div class="nav-item">
-            <p class="cta-text">Analyze strain variation and grain refinement in standard bolts</p>
-            <button class="play-btn" onclick="showSimulation('bolt-strain')">▶ Play: Bolt with Strain</button>
+            <p class="cta-text">Analyze plastic deformation and equivalent strain variation</p>
+            <button class="play-btn" onclick="showSimulation('sim-setup-2')">▶ Play: Simulation Setup 2</button>
         </div>
         <div class="nav-item">
-            <p class="cta-text">Observe hexagonal bolt upsetting at 20°C</p>
-            <button class="play-btn" onclick="showSimulation('hex-setup')">▶ Play: Hexagonal Bolt Setup</button>
+            <p class="cta-text">Observe hydraulic press action and semi-finished product formation</p>
+            <button class="play-btn" onclick="showSimulation('rod-strain-1')">▶ Play: Rod Strain 1</button>
         </div>
         <div class="nav-item">
-            <p class="cta-text">Evaluate deformation intensity and graph for hexagonal bolts</p>
-            <button class="play-btn" onclick="showSimulation('hex-strain')">▶ Play: Hex Bolt with Strain</button>
-        </div>
-        <div class="nav-item">
-            <p class="cta-text">Watch the single-step screw head forming sequence</p>
-            <button class="play-btn" onclick="showSimulation('screw-setup')">▶ Play: Screw Head Setup</button>
-        </div>
-        <div class="nav-item">
-            <p class="cta-text">Study the relationship between pilot height and punch force</p>
-            <button class="play-btn" onclick="showSimulation('screw-strain')">▶ Play: Screw Head with Strain</button>
+            <p class="cta-text">Study the final billet deformation and heat treatment results</p>
+            <button class="play-btn" onclick="showSimulation('rod-strain-2')">▶ Play: Rod Strain 2</button>
         </div>
     </div>
 
-    <div id="bolt-setup" class="video-overlay">
+    <div id="sim-setup-1" class="video-overlay">
         <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('bolt-setup')">&times;</button>
-            <h3>Bolt Setup</h3>
-            <video controls><source src="Bolt_Setup.mp4" type="video/mp4"></video>
+            <button class="close-btn" onclick="hideSimulation('sim-setup-1')">&times;</button>
+            <h3>Simulation Setup 1</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/79346209d84983b4582e5bc20dad737ebfd83bc2/experiment/simulation/SimulationSetup_1.mp4" type="video/mp4">
+            </video>
             <div class="description-box">
-                <p>Screw bolt is formed by heading operation. Heading process can be defined as an upsetting process, normally performed at the end of a round rod. In the given simulation of screw forming, cold heading process is used. The material of the billet is plain carbon steel. By Considering the various parameters of heading simulation like force, temp etc. like temperature of the billet is 20oC and In the simulation video the billet is divided into small finite elements to have better analysis of the force. The mechanical press is used for deformation. In the left hand side of the simulation video we can see the manufacturing of screw bolt. In the right hand top side we can see the upper die, lower die and initial billet, final billet. Similarly in the left hand bottom side of the video we can see the variation in billet during the operation.</p>
+                <p>Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Right hand side of video shows initial, pre formed and final billet and lower half shows the dies. The material of the billet is manganese alloy steel and maintaining temperature of billet to 1250&deg;C the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Preform connecting rod is shown at the end.</p>
             </div>
         </div>
     </div>
 
-    <div id="bolt-strain" class="video-overlay">
+    <div id="sim-setup-2" class="video-overlay">
         <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('bolt-strain')">&times;</button>
-            <h3>Bolt with Strain</h3>
-            <video controls><source src="Bolt_with_Strain.mp4" type="video/mp4"></video>
+            <button class="close-btn" onclick="hideSimulation('sim-setup-2')">&times;</button>
+            <h3>Simulation Setup 2</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/79346209d84983b4582e5bc20dad737ebfd83bc2/experiment/simulation/SimulationSetup_2.mp4" type="video/mp4">
+            </video>
             <div class="description-box">
-                <p>In the left hand side of the video one can depict the variation of strain in the billet during the heading operation. Initially the strain in the billet is zero while during the operation the strain rises due to deformation. It rises upto 3.36107. Greater strain indicates more deformation, more grain refinement and hence better mechanical properties. Similarly in the left hand bottom side of the video we can see the variation by the graph. Graph plot between the pilot height and punch.</p>
+                <p>Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. The material of the billet is manganese alloy steel and maintaining temperature of billet to 1250&deg;C the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Preform connecting rod is shown at the end.</p>
             </div>
         </div>
     </div>
 
-    <div id="hex-setup" class="video-overlay">
+    <div id="rod-strain-1" class="video-overlay">
         <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('hex-setup')">&times;</button>
-            <h3>Hexagonal Bolt Setup</h3>
-            <video controls><source src="HexagonalBolt_Setup.mp4" type="video/mp4"></video>
+            <button class="close-btn" onclick="hideSimulation('rod-strain-1')">&times;</button>
+            <h3>Rod Strain 1</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/79346209d84983b4582e5bc20dad737ebfd83bc2/experiment/simulation/RodStrain_1.mp4" type="video/mp4">
+            </video>
             <div class="description-box">
-                <p>Hexagonal bolt is formed by heading operation. Heading process may be defined as an upsetting process, normally performed at the end of a round rod or wire or blank. Heading processes can be carried out cold, warm or hot. In the given simulation of hexagonal bolt forming, cold heading process is used. Consider the various parameters of heading simulation. The material of the billet is plain carbon steel. The temperature of the billet is 20oC. In the simulation video the billet is divided into small finite elements to have better analysis of the force. The mechanical press is used for deformation. In the left hand side of the simulation video one can see the processing of hexagonal bolt. Similarly in the right hand top side of the video we can see the upper die or punch and lower die and initial billet and final billet. In the right hand bottom side of the video we can see the variation in the billet during the heading operation.</p>
+                <p>Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Right hand side of video shows initial, pre formed and final billet and lower half shows the dies. Considering various parameters and maintaining temperature of billet to 1250&deg;C the forming of connecting rod take place. The material of the billet is manganese alloy steel. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Final connecting rod is shown at the end.</p>
             </div>
         </div>
     </div>
 
-    <div id="hex-strain" class="video-overlay">
+    <div id="rod-strain-2" class="video-overlay">
         <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('hex-strain')">&times;</button>
-            <h3>Hexagonal Bolt with Strain</h3>
-            <video controls><source src="HexagonalBolt_with_Strain.mp4" type="video/mp4"></video>
+            <button class="close-btn" onclick="hideSimulation('rod-strain-2')">&times;</button>
+            <h3>Rod Strain 2</h3>
+            <video controls>
+                <source src="https://raw.githubusercontent.com/virtual-labs/exp-connectingrod-applications-dei/79346209d84983b4582e5bc20dad737ebfd83bc2/experiment/simulation/RodStrain_2.mp4" type="video/mp4">
+            </video>
             <div class="description-box">
-                <p>In the left hand side of the video we can see the variation of strain in the billet during the heading operation. Initially the strain in the billet is zero while during the operation the strain rises due to deformation. It rises upto 3.21625. Greater strain indicates more deformation, more grain refinement and hence better mechanical properties. Similarly in the right hand top side of the video we can see the variation of strain with mesh in the billet during the operation. Similarly in the right hand bottom side of the video we can see the graph. Graph plot between punch and pilot height.</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="screw-setup" class="video-overlay">
-        <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('screw-setup')">&times;</button>
-            <h3>Screw Head Setup</h3>
-            <video controls><source src="ScrewHead_Setup.mp4" type="video/mp4"></video>
-            <div class="description-box">
-                <p>Screw is formed by heading operation. Heading process may be defined as an upsetting process, normally performed at the end of a round rod in order to produce a larger cross-section. Heading processes can be carried out cold, warm or hot. In the given simulation of screw forming, cold heading process is used. The screw forming is normally done in two steps but for ease of the simulation, screw is made in a single step. Consider the various parameters of heading simulation. The material of the billet is plain carbon steel. the temperature of the billet is 20oC. In the simulation video the billet is divided into small finite elements to have better analysis of the force. The mechanical press is used for deformation. In the left hand side of the simulation video one can see the processing of the screw. In the right hand bottom side of the video we can see the upper die, lower die, initial billet and final billet. Similarly in the left hand bottom side of the video we can see the variation e in the billet during the operation.</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="screw-strain" class="video-overlay">
-        <div class="video-card">
-            <button class="close-btn" onclick="hideSimulation('screw-strain')">&times;</button>
-            <h3>Screw Head with Strain</h3>
-            <video controls><source src="ScrewHead_with_Strain.mp4" type="video/mp4"></video>
-            <div class="description-box">
-                <p>In the left hand side of the video we can depict the variation of strain in the billet during the heading operation. Initially the strain in the billet is zero while during the operation the strain rises due to deformation. It rises upto 3.36107. Greater strain indicates more deformation, more grain refinement and hence better mechanical properties. Similarly in the right hand top side if he video we can see the variation of strain with mesh in the billet during the operation. Similarly in the left hand bottom side of the video one can depict the variation in the billet during the operation by the graph. Graph plot between the pilot height and upper die.</p>
+                <p>Connecting rod forming process comprises billet compression and deformation by closed impression die forming process. The upper half section of the connecting rod is impressed on the upper die while lower half of the connecting rod is impressed on the lower die. Considering various parameters and maintaining temperature of billet to 1250&deg;C the forming of connecting rod take place. The variation of equivalent strain are shown over here at right hand side of video. The material of the billet is manganese alloy steel. Hydraulic press is used to deform the billet. The upper die with hydraulic press compresses the billet with very high force in downward direction and deforms it. Due to high deforming force and high billet temperature, material starts deforming plastically and moves into the impressions created in the upper and lower die. At the final height the billet is deformed into semi-finished connecting rod. Final shape is obtained after various heat treatment processes and machining of the semi-finished connecting rod. Final connecting rod is shown at the end.</p>
             </div>
         </div>
     </div>
