@@ -18,110 +18,94 @@
             <p class="cta-text">Watch the cold heading process for standard bolt formation</p>
             <button class="play-btn" onclick="showSimulation('bolt-setup')">▶ Play: Bolt Setup</button>
         </div>
-
         <div class="nav-item">
             <p class="cta-text">Analyze strain variation and grain refinement in standard bolts</p>
             <button class="play-btn" onclick="showSimulation('bolt-strain')">▶ Play: Bolt with Strain</button>
         </div>
-
         <div class="nav-item">
             <p class="cta-text">Observe hexagonal bolt upsetting at 20°C</p>
             <button class="play-btn" onclick="showSimulation('hex-setup')">▶ Play: Hexagonal Bolt Setup</button>
         </div>
-
         <div class="nav-item">
             <p class="cta-text">Evaluate deformation intensity and graph for hexagonal bolts</p>
             <button class="play-btn" onclick="showSimulation('hex-strain')">▶ Play: Hex Bolt with Strain</button>
         </div>
-
         <div class="nav-item">
             <p class="cta-text">Watch the single-step screw head forming sequence</p>
             <button class="play-btn" onclick="showSimulation('screw-setup')">▶ Play: Screw Head Setup</button>
         </div>
-
         <div class="nav-item">
             <p class="cta-text">Study the relationship between pilot height and punch force</p>
             <button class="play-btn" onclick="showSimulation('screw-strain')">▶ Play: Screw Head with Strain</button>
         </div>
     </div>
 
-    <div class="content-container">
-        <div id="bolt-setup" class="video-section">
+    <div id="bolt-setup" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('bolt-setup')">&times;</button>
             <h3>Bolt Setup</h3>
-            <video width="800" controls>
-                <source src="https://raw.githubusercontent.com/virtual-labs/exp-screwhead-applications-dei/d2582835e06e80c7c00f7c1384c9b96bb40c7a2e/experiment/simulation/Bolt_Setup.mp4" type="video/mp4">
-            </video>
+            <video controls><source src="Bolt_Setup.mp4" type="video/mp4"></video>
             <div class="description-box">
-                <p><strong>Description:</strong> Standard screw bolts are formed via cold heading, an upsetting process performed at the end of a round rod. Using plain carbon steel at 20°C, a mechanical press deforms the billet. The simulation uses finite element analysis to monitor force distribution. The video highlights the upper/lower dies and the transition from initial to final billet shapes.</p>
-            </div>
-        </div>
-
-        <div id="bolt-strain" class="video-section">
-            <h3>Bolt with Strain</h3>
-            <video width="800" controls>
-                <source src="https://raw.githubusercontent.com/virtual-labs/exp-screwhead-applications-dei/d2582835e06e80c7c00f7c1384c9b96bb40c7a2e/experiment/simulation/Bolt_with_Strain.mp4" type="video/mp4">
-            </video>
-            <div class="description-box">
-                <p><strong>Description:</strong> This simulation tracks strain variation during heading. Strain rises from zero to 3.36107, indicating significant deformation that results in grain refinement and superior mechanical properties. A graph plotting pilot height versus punch force is provided on the bottom left for technical analysis.</p>
-            </div>
-        </div>
-
-        <div id="hex-setup" class="video-section">
-            <h3>Hexagonal Bolt Setup</h3>
-            <video width="800" controls>
-                <source src="https://raw.githubusercontent.com/virtual-labs/exp-screwhead-applications-dei/d2582835e06e80c7c00f7c1384c9b96bb40c7a2e/experiment/simulation/HexagonalBolt_Setup.mp4" type="video/mp4">
-            </video>
-            <div class="description-box">
-                <p><strong>Description:</strong> Hexagonal bolt formation utilizes cold heading at 20°C. The round blank is upset using a mechanical press. The interface displays the processing stages, showing the punch (upper die) and lower die. Finite element division allows for a precise analysis of how the hexagonal head geometry is achieved.</p>
-            </div>
-        </div>
-
-        <div id="hex-strain" class="video-section">
-            <h3>Hexagonal Bolt with Strain</h3>
-            <video width="800" controls>
-                <source src="https://raw.githubusercontent.com/virtual-labs/exp-screwhead-applications-dei/d2582835e06e80c7c00f7c1384c9b96bb40c7a2e/experiment/simulation/HexagonalBolt_with_Strain.mp4" type="video/mp4">
-            </video>
-            <div class="description-box">
-                <p><strong>Description:</strong> Strain rises to 3.21625 during this operation. The simulation shows the variation of strain across the mesh, particularly localized at the head-to-shank transition. This deformation ensures the hexagonal head possesses the necessary structural integrity for fastening applications.</p>
-            </div>
-        </div>
-
-        <div id="screw-setup" class="video-section">
-            <h3>Screw Head Setup</h3>
-            <video width="800" controls>
-                <source src="https://raw.githubusercontent.com/virtual-labs/exp-screwhead-applications-dei/d2582835e06e80c7c00f7c1384c9b96bb40c7a2e/experiment/simulation/ScrewHead_Setup.mp4" type="video/mp4">
-            </video>
-            <div class="description-box">
-                <p><strong>Description:</strong> While typically a multi-step process, this simulation demonstrates screw head formation in a single step for ease of analysis. The plain carbon steel billet undergoes cold heading to create a larger cross-section. The setup highlights the mechanical press interaction with the dies to form the specific screw head profile.</p>
-            </div>
-        </div>
-
-        <div id="screw-strain" class="video-section">
-            <h3>Screw Head with Strain</h3>
-            <video width="800" controls>
-                <source src="https://raw.githubusercontent.com/virtual-labs/exp-screwhead-applications-dei/d2582835e06e80c7c00f7c1384c9b96bb40c7a2e/experiment/simulation/ScrewHead_with_Strain.mp4" type="video/mp4">
-            </video>
-            <div class="description-box">
-                <p><strong>Description:</strong> The strain reaches 3.36107 as the screw head is formed. High strain values correlate with improved hardness and strength through work hardening. The accompanying graph illustrates the relationship between pilot height and the movement of the upper die (punch).</p>
+                <p>Screw bolt is formed by heading operation. Heading process can be defined as an upsetting process, normally performed at the end of a round rod. In the given simulation of screw forming, cold heading process is used. The material of the billet is plain carbon steel. By Considering the various parameters of heading simulation like force, temp etc. like temperature of the billet is 20oC and In the simulation video the billet is divided into small finite elements to have better analysis of the force. The mechanical press is used for deformation. In the left hand side of the simulation video we can see the manufacturing of screw bolt. In the right hand top side we can see the upper die, lower die and initial billet, final billet. Similarly in the left hand bottom side of the video we can see the variation in billet during the operation.</p>
             </div>
         </div>
     </div>
 
-    <script>
-        function showSimulation(id) {
-            var sections = document.getElementsByClassName('video-section');
-            for (var i = 0; i < sections.length; i++) {
-                sections[i].style.display = 'none';
-                var video = sections[i].querySelector('video');
-                if (video) {
-                    video.pause();
-                    video.currentTime = 0;
-                }
-            }
-            document.getElementById(id).style.display = 'block';
-            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>
+    <div id="bolt-strain" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('bolt-strain')">&times;</button>
+            <h3>Bolt with Strain</h3>
+            <video controls><source src="Bolt_with_Strain.mp4" type="video/mp4"></video>
+            <div class="description-box">
+                <p>In the left hand side of the video one can depict the variation of strain in the billet during the heading operation. Initially the strain in the billet is zero while during the operation the strain rises due to deformation. It rises upto 3.36107. Greater strain indicates more deformation, more grain refinement and hence better mechanical properties. Similarly in the left hand bottom side of the video we can see the variation by the graph. Graph plot between the pilot height and punch.</p>
+            </div>
+        </div>
+    </div>
 
+    <div id="hex-setup" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('hex-setup')">&times;</button>
+            <h3>Hexagonal Bolt Setup</h3>
+            <video controls><source src="HexagonalBolt_Setup.mp4" type="video/mp4"></video>
+            <div class="description-box">
+                <p>Hexagonal bolt is formed by heading operation. Heading process may be defined as an upsetting process, normally performed at the end of a round rod or wire or blank. Heading processes can be carried out cold, warm or hot. In the given simulation of hexagonal bolt forming, cold heading process is used. Consider the various parameters of heading simulation. The material of the billet is plain carbon steel. The temperature of the billet is 20oC. In the simulation video the billet is divided into small finite elements to have better analysis of the force. The mechanical press is used for deformation. In the left hand side of the simulation video one can see the processing of hexagonal bolt. Similarly in the right hand top side of the video we can see the upper die or punch and lower die and initial billet and final billet. In the right hand bottom side of the video we can see the variation in the billet during the heading operation.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="hex-strain" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('hex-strain')">&times;</button>
+            <h3>Hexagonal Bolt with Strain</h3>
+            <video controls><source src="HexagonalBolt_with_Strain.mp4" type="video/mp4"></video>
+            <div class="description-box">
+                <p>In the left hand side of the video we can see the variation of strain in the billet during the heading operation. Initially the strain in the billet is zero while during the operation the strain rises due to deformation. It rises upto 3.21625. Greater strain indicates more deformation, more grain refinement and hence better mechanical properties. Similarly in the right hand top side of the video we can see the variation of strain with mesh in the billet during the operation. Similarly in the right hand bottom side of the video we can see the graph. Graph plot between punch and pilot height.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="screw-setup" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('screw-setup')">&times;</button>
+            <h3>Screw Head Setup</h3>
+            <video controls><source src="ScrewHead_Setup.mp4" type="video/mp4"></video>
+            <div class="description-box">
+                <p>Screw is formed by heading operation. Heading process may be defined as an upsetting process, normally performed at the end of a round rod in order to produce a larger cross-section. Heading processes can be carried out cold, warm or hot. In the given simulation of screw forming, cold heading process is used. The screw forming is normally done in two steps but for ease of the simulation, screw is made in a single step. Consider the various parameters of heading simulation. The material of the billet is plain carbon steel. the temperature of the billet is 20oC. In the simulation video the billet is divided into small finite elements to have better analysis of the force. The mechanical press is used for deformation. In the left hand side of the simulation video one can see the processing of the screw. In the right hand bottom side of the video we can see the upper die, lower die, initial billet and final billet. Similarly in the left hand bottom side of the video we can see the variation e in the billet during the operation.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="screw-strain" class="video-overlay">
+        <div class="video-card">
+            <button class="close-btn" onclick="hideSimulation('screw-strain')">&times;</button>
+            <h3>Screw Head with Strain</h3>
+            <video controls><source src="ScrewHead_with_Strain.mp4" type="video/mp4"></video>
+            <div class="description-box">
+                <p>In the left hand side of the video we can depict the variation of strain in the billet during the heading operation. Initially the strain in the billet is zero while during the operation the strain rises due to deformation. It rises upto 3.36107. Greater strain indicates more deformation, more grain refinement and hence better mechanical properties. Similarly in the right hand top side if he video we can see the variation of strain with mesh in the billet during the operation. Similarly in the left hand bottom side of the video one can depict the variation in the billet during the operation by the graph. Graph plot between the pilot height and upper die.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
