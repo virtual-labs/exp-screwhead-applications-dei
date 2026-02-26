@@ -2,37 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. A bolt has:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Both the ends threaded",
+        "b": "A head on one end and nut fitted to the other",
+        "c": "Pointed thread",
+        "d": "None of these"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. An allen bolt is:",
+      "answers": {
+        "a": "Same as stud bolt",
+        "b": "Self locking bolt",
+        "c": "Provided with hexagonal depression in head",
+        "d": "None of these"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. The function of washer is to:",
+      "answers": {
+        "a": "Provide bearing area",
+        "b": "None of these",
+        "c": "Provide cushioning effect",
+        "d": "Both (a) and (c)"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "4. A stud has:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Pointed thread",
+        "b": "A head on one end and nut on other",
+        "c": "Both the ends threaded",
+        "d": "Head at one end only"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The creast diameter of the screw thread is same as:",
+      "answers": {
+        "a": "Pitch diameter",
+        "b": "Minor diameter",
+        "c": "None of these",
+        "d": "Major diameter"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
