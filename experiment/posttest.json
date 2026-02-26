@@ -2,6 +2,7 @@
   "version": 2.0,
   "questions": [
     {
+      "number": 1,
       "question": "1. Maximum pressure stress theory is applicable for:",
       "answers": {
         "a": "Ductile material",
@@ -9,10 +10,17 @@
         "c": "Brittle material",
         "d": "None of these"
       },
+      "explanations": {
+        "a": "Incorrect. Maximum principal stress theory is not suitable for ductile materials.",
+        "b": "Incorrect. Different failure theories apply to ductile and brittle materials separately.",
+        "c": "Correct. Maximum principal stress (Rankine’s theory) is applicable to brittle materials.",
+        "d": "Incorrect. One of the listed options is correct."
+      },
       "correctAnswer": "c",
       "difficulty": "intermediate"
     },
     {
+      "number": 2,
       "question": "2. Shear stress theory is applicable for:",
       "answers": {
         "a": "Ductile material",
@@ -20,10 +28,17 @@
         "c": "Both ductile and brittle",
         "d": "None of these"
       },
+      "explanations": {
+        "a": "Correct. Maximum shear stress theory (Tresca theory) is mainly applicable to ductile materials.",
+        "b": "Incorrect. Brittle materials fail due to normal stress rather than shear stress.",
+        "c": "Incorrect. Shear stress theory is primarily for ductile materials.",
+        "d": "Incorrect. One of the listed options is correct."
+      },
       "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
+      "number": 3,
       "question": "3. A tap bolt has:",
       "answers": {
         "a": "Both the ends threaded",
@@ -31,10 +46,17 @@
         "c": "Pointed thread",
         "d": "A head on one end and nut fitted to the other"
       },
+      "explanations": {
+        "a": "Incorrect. That describes a stud.",
+        "b": "Correct. A tap bolt has a head on one end and is screwed into a tapped hole without using a nut.",
+        "c": "Incorrect. Pointed threads are common in screws, not tap bolts.",
+        "d": "Incorrect. That describes a standard bolt used with a nut."
+      },
       "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
+      "number": 4,
       "question": "4. The following type of nut is used with allen bolt:",
       "answers": {
         "a": "Slotted nut",
@@ -42,16 +64,29 @@
         "c": "Hexagonal nut",
         "d": "Any one of these"
       },
+      "explanations": {
+        "a": "Incorrect. Slotted nuts are used where locking arrangements are required.",
+        "b": "Incorrect. There is no standard term called an 'Allen nut'.",
+        "c": "Incorrect. Allen bolts do not require a specific nut type.",
+        "d": "Correct. Allen bolts can be used with various types of nuts depending on application."
+      },
       "correctAnswer": "d",
       "difficulty": "intermediate"
     },
     {
+      "number": 5,
       "question": "5. How many types of screw thread:",
       "answers": {
         "a": "6 types",
         "b": "4 types",
         "c": "3 types",
         "d": "2 types"
+      },
+      "explanations": {
+        "a": "Incorrect. While there are many thread forms, the commonly classified basic types are fewer.",
+        "b": "Incorrect. Four is not the standard basic classification count.",
+        "c": "Correct. Screw threads are commonly classified into three basic types: V-thread, square thread, and trapezoidal thread.",
+        "d": "Incorrect. There are more than two basic thread types."
       },
       "correctAnswer": "c",
       "difficulty": "intermediate"
