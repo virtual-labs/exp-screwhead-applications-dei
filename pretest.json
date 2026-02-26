@@ -1,0 +1,95 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "number": 1,
+      "question": "1. A bolt has:",
+      "answers": {
+        "a": "Both the ends threaded",
+        "b": "A head on one end and nut fitted to the other",
+        "c": "Pointed thread",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. A stud has both ends threaded, not a bolt.",
+        "b": "Correct. A bolt has a head on one end and is used with a nut on the other end.",
+        "c": "Incorrect. Pointed threads are typically seen in screws, not standard bolts.",
+        "d": "Incorrect. One of the given options is correct."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 2,
+      "question": "2. An allen bolt is:",
+      "answers": {
+        "a": "Same as stud bolt",
+        "b": "Self locking bolt",
+        "c": "Provided with hexagonal depression in head",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Incorrect. A stud bolt has threads on both ends.",
+        "b": "Incorrect. An Allen bolt is not specifically self-locking.",
+        "c": "Correct. An Allen bolt has a hexagonal recess in its head for tightening with an Allen key.",
+        "d": "Incorrect. One of the options listed is correct."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 3,
+      "question": "3. The function of washer is to:",
+      "answers": {
+        "a": "Provide bearing area",
+        "b": "None of these",
+        "c": "Provide cushioning effect",
+        "d": "Both (a) and (c)"
+      },
+      "explanations": {
+        "a": "Correct. The primary function of a washer is to provide additional bearing area and distribute load.",
+        "b": "Incorrect. One of the listed options is correct.",
+        "c": "Incorrect. Some washers provide cushioning, but the main function is load distribution.",
+        "d": "Incorrect. The primary function is providing bearing area."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 4,
+      "question": "4. A stud has:",
+      "answers": {
+        "a": "Pointed thread",
+        "b": "A head on one end and nut on other",
+        "c": "Both the ends threaded",
+        "d": "Head at one end only"
+      },
+      "explanations": {
+        "a": "Incorrect. A stud does not have a pointed thread.",
+        "b": "Incorrect. That describes a bolt.",
+        "c": "Correct. A stud has threads on both ends and does not have a head.",
+        "d": "Incorrect. A stud does not have a head."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "number": 5,
+      "question": "5. The crest diameter of the screw thread is same as:",
+      "answers": {
+        "a": "Pitch diameter",
+        "b": "Minor diameter",
+        "c": "None of these",
+        "d": "Major diameter"
+      },
+      "explanations": {
+        "a": "Incorrect. Pitch diameter is the effective diameter where thread thickness equals space between threads.",
+        "b": "Incorrect. Minor diameter is the smallest diameter of the thread.",
+        "c": "Incorrect. One of the listed options is correct.",
+        "d": "Correct. The crest diameter of a screw thread is the major diameter."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
